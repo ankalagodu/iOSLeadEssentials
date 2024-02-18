@@ -7,14 +7,10 @@
 
 import Foundation
 
-class APIClient {
-    private static let instance = APIClient()
-    
-    static func getInstance() -> APIClient {
-        instance
-    }
+final class APIClient {
+    static let instance = APIClient()
     
     private init() {}
 }
 
-let apiClient = APIClient.getInstance()
+let apiClient = APIClient.instance
