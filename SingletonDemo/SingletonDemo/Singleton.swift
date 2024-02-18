@@ -33,6 +33,8 @@ class LoginViewController: UIViewController {
 }
 
 class FeedViewController: UIViewController {
+    let api = APIClient.shared
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
