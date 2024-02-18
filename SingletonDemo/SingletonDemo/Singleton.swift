@@ -9,17 +9,22 @@ import UIKit
 
 // Singleton
 
-struct LoggedInUser {}
-
-struct FeedItem {}
+// API module
 
 class APIClient {
     static let shared = APIClient()
     
     private init() {}
     
+    func execute(_ :URLRequest, completion: (Data) -> Void) {}
+}
+
+// Login module
+
+struct LoggedInUser {}
+
+extension APIClient {
     func login(completion: (LoggedInUser) -> Void) {}
-    func loadFeed(completion: ([FeedItem]) -> Void) {}
 }
 
 class LoginViewController: UIViewController {
@@ -32,6 +37,13 @@ class LoginViewController: UIViewController {
     }
 }
 
+struct FeedItem {}
+
+extension APIClient {
+    func loadFeed(completion: ([FeedItem]) -> Void) {}
+}
+
+// Feed module
 class FeedViewController: UIViewController {
     let api = APIClient.shared
     
