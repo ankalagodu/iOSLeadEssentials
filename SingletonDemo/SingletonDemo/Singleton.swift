@@ -11,28 +11,33 @@ import UIKit
 
 struct LoggedInUser {}
 
+struct FeedItem {}
+
 class APIClient {
-    static var instance = APIClient()
+    static let shared = APIClient()
     
     private init() {}
     
-    func login(completion: (LoggenInUser) -> Void) {}
-}
-
-APIClient.instance = MockAPIClient()
-
-let client = APIClient.instance
-
-class MockAPIClient: APIClient {
-    init() {}
+    func login(completion: (LoggedInUser) -> Void) {}
+    func loadFeed(completion: ([FeedItem]) -> Void) {}
 }
 
 class LoginViewController: UIViewController {
+    let api = APIClient.shared
+    
     func didTapLoginButton() {
-        APIClient.instance.login() { user in
-            // show next screen
+        api.login() { user in
+            // show feed screen
         }
     }
 }
 
-let apiClient = APIClient.instance
+class FeedViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        api.loadFeed { loadedItems in
+            // update UI
+        }
+    }
+}
