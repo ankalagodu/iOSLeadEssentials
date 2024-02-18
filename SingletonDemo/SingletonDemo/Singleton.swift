@@ -7,7 +7,15 @@
 
 import UIKit
 
-// Singleton
+// Main module
+
+extension APIClient {
+    func login(completion: (LoggedInUser) -> Void) {}
+}
+
+extension APIClient {
+    func loadFeed(completion: ([FeedItem]) -> Void) {}
+}
 
 // API module
 
@@ -23,34 +31,27 @@ class APIClient {
 
 struct LoggedInUser {}
 
-extension APIClient {
-    func login(completion: (LoggedInUser) -> Void) {}
-}
-
 class LoginViewController: UIViewController {
-    let api = APIClient.shared
+    var login: (LoggedInUser) -> Void)?
     
     func didTapLoginButton() {
-        api.login() { user in
+        login? { user in
             // show feed screen
         }
     }
 }
 
+// Feed module
+
 struct FeedItem {}
 
-extension APIClient {
-    func loadFeed(completion: ([FeedItem]) -> Void) {}
-}
-
-// Feed module
 class FeedViewController: UIViewController {
-    let api = APIClient.shared
+    var loadFeed: ([FeedItem]) -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        api.loadFeed { loadedItems in
+        loadFeed? { loadedItems in
             // update UI
         }
     }
