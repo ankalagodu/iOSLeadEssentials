@@ -11,12 +11,20 @@ import UIKit
 
 struct LoggedInUser {}
 
-final class APIClient {
-    static let instance = APIClient()
+class APIClient {
+    static var instance = APIClient()
     
     private init() {}
     
     func login(completion: (LoggenInUser) -> Void) {}
+}
+
+APIClient.instance = MockAPIClient()
+
+let client = APIClient.instance
+
+class MockAPIClient: APIClient {
+    init() {}
 }
 
 class LoginViewController: UIViewController {
