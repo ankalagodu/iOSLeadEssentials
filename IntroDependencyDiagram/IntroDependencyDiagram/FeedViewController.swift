@@ -44,7 +44,7 @@ struct Reachable {
     static var isNetworkAvailable = false
 }
 
-class RemoteWithLocalFallbackFeedService {
+class RemoteWithLocalFallbackFeedLoader: FeedLoader {
     var remote: FeedLoader!
     var local: FeedLoader!
     
@@ -61,5 +61,7 @@ class RemoteWithLocalFallbackFeedService {
 
 let vc = FeedViewController(loader: RemoteFeedLoader())
 let vc1 = FeedViewController(loader: LocalFeedLoader())
-let vc2 = FeedViewController()
-vc2.loader = RemoteWithLocalFallbackFeedService(remote: RemoteFeedLoader(), local: LocalFeedLoader())
+var vc2 = FeedViewController()
+vc2.loader = RemoteWithLocalFallbackFeedLoader(
+    remote: RemoteFeedLoader(),
+    local: LocalFeedLoader())
