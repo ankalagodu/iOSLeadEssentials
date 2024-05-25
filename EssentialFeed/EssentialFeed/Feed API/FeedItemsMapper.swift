@@ -5,13 +5,6 @@
 //  Created by Koushik A N on 28/04/24.
 //
 
-internal struct RemoteFeedItem: Decodable {
-    internal let id: UUID
-    internal let description: String?
-    internal let location: String?
-    internal let image: URL
-}
-
 final class FeedItemsMapper {
     private struct Root: Decodable {
         let items: [RemoteFeedItem]
