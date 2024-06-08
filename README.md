@@ -81,22 +81,35 @@ iOSLeadEssentials repo for course
 
 
 FeedStore implementation
-- Retrieve 
-    - Empty cache returns empty
-    - Empty cache twice returns empty (no side-effects)
-    - Non-empty cache returns data
-    - Non-empty cache twice returns same data (no side-effects)
-    - Error returns error (if applicable, e.g., invalid data)
-    - Error twice returns same error (if applicable, e.g., invalid data)
+✅ Retrieve 
+    ✅ Empty cache returns empty
+    ✅ Empty cache twice returns empty (no side-effects)
+    ✅ Non-empty cache returns data
+    ✅ Non-empty cache twice returns same data (no side-effects)
+    ✅ Error returns error (if applicable, e.g., invalid data)
+    ✅ Error twice returns same error (if applicable, e.g., invalid data)
     
-- Insert
-    - To empty cache stores data
-    - To non-empty cache overrides previous data with new data
-    - Error (if applicable, e.g., no write permission)
+✅ Insert
+    ✅ To empty cache stores data
+    ✅ To non-empty cache overrides previous data with new data
+    ✅ Error (if applicable, e.g., no write permission)
 
-- Delete
-    - Empty cache does nothis (cache stasys empty and does not fail)
-    - Non-empty cache leaves cache empty
-    - Error (if applicable, e.g., no delete permission)
+✅ Delete
+    ✅ Empty cache does nothis (cache stasys empty and does not fail)
+    ✅ Non-empty cache leaves cache empty
+    ✅ Error (if applicable, e.g., no delete permission)
     
-- Side-effects must run serially to avoid race-conditions
+✅ Side-effects must run serially to avoid race-conditions
+
+
+## UX goals for the Feed UI experience
+[✅] Load feed automatically when view is presented
+[✅] Allow customer to manually reload feed (pull to refresh)
+[✅] Show a loading indicator while loading feed
+[✅] Render all loaded feed items (location, image, description)
+[✅] Image loading experience
+    [✅] Load when image view is visible (on screen)
+    [✅] Cancel when image view is out of screen
+    [✅] Show a loading indicator while loading image (shimmer)
+    [✅] Option to retry on image download error
+    [✅] Preload when image view is near visible
