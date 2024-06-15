@@ -73,6 +73,9 @@
                                                             <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system">
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="I7N-Rq-AAr" eventType="touchUpInside" id="1a0-Ld-ZX2"/>
+                                                            </connections>
                                                         </button>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jf5-K6-e5q">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="353"/>
@@ -119,6 +122,14 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="jDZ-TP-66a" secondAttribute="trailing" priority="999" id="twi-AH-FL1"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="xST-kd-Rvz" id="g55-Gh-Rtg"/>
+                                    <outlet property="feedImageContainer" destination="Q3V-mn-n25" id="kzU-Nd-UFW"/>
+                                    <outlet property="feedImageRetryButton" destination="EpG-pu-uCa" id="XDi-oK-B0r"/>
+                                    <outlet property="feedImageView" destination="Jf5-K6-e5q" id="oN9-by-sCT"/>
+                                    <outlet property="locationContainer" destination="UYF-vs-7am" id="KgL-vg-f8X"/>
+                                    <outlet property="locationLabel" destination="L9s-M1-A3x" id="E2Z-W1-X6B"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
