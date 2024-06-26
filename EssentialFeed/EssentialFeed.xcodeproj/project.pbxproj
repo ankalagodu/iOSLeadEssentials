@@ -88,6 +88,7 @@
 		7DF7789F2C2C56AF00D47B5C /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D64A33A2BB69E8A007696D5 /* EssentialFeed.framework */; platformFilter = ios; };
 		7DF778A72C2C572C00D47B5C /* EMPTY_FEED.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF778A62C2C572C00D47B5C /* EMPTY_FEED.png */; };
 		7DF778AA2C2C5F2200D47B5C /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778A92C2C5F2200D47B5C /* UIImage+TestHelpers.swift */; };
+		7DF778AD2C2C605100D47B5C /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +224,7 @@
 		7DF7789D2C2C56AF00D47B5C /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
 		7DF778A62C2C572C00D47B5C /* EMPTY_FEED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EMPTY_FEED.png; path = ../../../../../../../Downloads/EMPTY_FEED.png; sourceTree = "<group>"; };
 		7DF778A92C2C5F2200D47B5C /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
+		7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,12 +403,10 @@
 		7D46D5B72C14D33F008F4B7C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7DF778AB2C2C603200D47B5C /* Helpers */,
 				7D46D5AE2C1477FD008F4B7C /* FeedImageCell.swift */,
-				7D46D5B02C14C4EB008F4B7C /* UIView+Shimmering.swift */,
 				7D46D5CC2C1D67A7008F4B7C /* Feed.storyboard */,
 				7D46D5CE2C1D68F0008F4B7C /* Feed.xcassets */,
-				7D46D5D52C1D7C65008F4B7C /* UITableView+Dequeueing.swift */,
-				7D46D5D72C1D7D7C008F4B7C /* UIImageView+Animations.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -571,6 +571,17 @@
 			isa = PBXGroup;
 			children = (
 				7DF778A92C2C5F2200D47B5C /* UIImage+TestHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7DF778AB2C2C603200D47B5C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D5B02C14C4EB008F4B7C /* UIView+Shimmering.swift */,
+				7D46D5D52C1D7C65008F4B7C /* UITableView+Dequeueing.swift */,
+				7D46D5D72C1D7D7C008F4B7C /* UIImageView+Animations.swift */,
+				7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -838,6 +849,7 @@
 			files = (
 				7D46D5AD2C147380008F4B7C /* FeedViewController.swift in Sources */,
 				7D46D5D62C1D7C65008F4B7C /* UITableView+Dequeueing.swift in Sources */,
+				7DF778AD2C2C605100D47B5C /* UITableView+HeaderSizing.swift in Sources */,
 				7D46D5D82C1D7D7C008F4B7C /* UIImageView+Animations.swift in Sources */,
 				7D46D5BB2C157AAF008F4B7C /* FeedImageCellController.swift in Sources */,
 				7D46D5B12C14C4EB008F4B7C /* UIView+Shimmering.swift in Sources */,
