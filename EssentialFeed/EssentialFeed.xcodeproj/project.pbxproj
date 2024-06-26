@@ -99,6 +99,7 @@
 		7DF777F02C27FBF000D47B5C /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DF777ED2C27FBF000D47B5C /* FeedStore.xcdatamodeld */; };
 		7DF777F22C27FE0400D47B5C /* CoreDataFeedStore+FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF777F12C27FE0400D47B5C /* CoreDataFeedStore+FeedStore.swift */; };
 		7DF778512C2BF95400D47B5C /* FeedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778502C2BF95400D47B5C /* FeedCache.swift */; };
+		7DF7785B2C2BFD7300D47B5C /* FeedImageDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7785A2C2BFD7300D47B5C /* FeedImageDataCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +245,7 @@
 		7DF777EF2C27FBF000D47B5C /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
 		7DF777F12C27FE0400D47B5C /* CoreDataFeedStore+FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataFeedStore+FeedStore.swift"; sourceTree = "<group>"; };
 		7DF778502C2BF95400D47B5C /* FeedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCache.swift; sourceTree = "<group>"; };
+		7DF7785A2C2BFD7300D47B5C /* FeedImageDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -567,6 +569,7 @@
 				7D64A3552BB69F1D007696D5 /* FeedLoader.swift */,
 				7D46D5B32C14D30A008F4B7C /* FeedImageDataLoader.swift */,
 				7DF778502C2BF95400D47B5C /* FeedCache.swift */,
+				7DF7785A2C2BFD7300D47B5C /* FeedImageDataCache.swift */,
 			);
 			path = "Feed Feature";
 			sourceTree = "<group>";
@@ -926,6 +929,7 @@
 				7D46D60B2C1F1E0A008F4B7C /* FeedErrorViewModel.swift in Sources */,
 				7D46D5082BF9CB90008F4B7C /* URLSessionHTTPClient.swift in Sources */,
 				7DF777D92C27EDFE00D47B5C /* FeedImageDataStore.swift in Sources */,
+				7DF7785B2C2BFD7300D47B5C /* FeedImageDataCache.swift in Sources */,
 				7D64A35D2BC2E537007696D5 /* RemoteFeedLoader.swift in Sources */,
 				7D46D6102C1F24DF008F4B7C /* FeedImagePresenter.swift in Sources */,
 				7D64A35F2BDE6202007696D5 /* HTTPClient.swift in Sources */,
