@@ -91,6 +91,7 @@
 		7DF778AD2C2C605100D47B5C /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */; };
 		7DF778AF2C383BF400D47B5C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778AE2C383BF400D47B5C /* ErrorView.swift */; };
 		7DF778B12C38459A00D47B5C /* UIViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778B02C38459A00D47B5C /* UIViewController+Snapshot.swift */; };
+		7DF778B32C38460C00D47B5C /* XCTestCase+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778B22C38460C00D47B5C /* XCTestCase+Snapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,6 +230,7 @@
 		7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
 		7DF778AE2C383BF400D47B5C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		7DF778B02C38459A00D47B5C /* UIViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Snapshot.swift"; sourceTree = "<group>"; };
+		7DF778B22C38460C00D47B5C /* XCTestCase+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Snapshot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -577,6 +579,7 @@
 			children = (
 				7DF778A92C2C5F2200D47B5C /* UIImage+TestHelpers.swift */,
 				7DF778B02C38459A00D47B5C /* UIViewController+Snapshot.swift */,
+				7DF778B22C38460C00D47B5C /* XCTestCase+Snapshot.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -940,6 +943,7 @@
 			files = (
 				7DF7789E2C2C56AF00D47B5C /* FeedSnapshotTests.swift in Sources */,
 				7DF778B12C38459A00D47B5C /* UIViewController+Snapshot.swift in Sources */,
+				7DF778B32C38460C00D47B5C /* XCTestCase+Snapshot.swift in Sources */,
 				7DF778AA2C2C5F2200D47B5C /* UIImage+TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
