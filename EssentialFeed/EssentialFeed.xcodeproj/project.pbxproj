@@ -89,6 +89,7 @@
 		7DF778A72C2C572C00D47B5C /* EMPTY_FEED.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF778A62C2C572C00D47B5C /* EMPTY_FEED.png */; };
 		7DF778AA2C2C5F2200D47B5C /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778A92C2C5F2200D47B5C /* UIImage+TestHelpers.swift */; };
 		7DF778AD2C2C605100D47B5C /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */; };
+		7DF778AF2C383BF400D47B5C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778AE2C383BF400D47B5C /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +226,7 @@
 		7DF778A62C2C572C00D47B5C /* EMPTY_FEED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EMPTY_FEED.png; path = ../../../../../../../Downloads/EMPTY_FEED.png; sourceTree = "<group>"; };
 		7DF778A92C2C5F2200D47B5C /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
+		7DF778AE2C383BF400D47B5C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +407,7 @@
 			children = (
 				7DF778AB2C2C603200D47B5C /* Helpers */,
 				7D46D5AE2C1477FD008F4B7C /* FeedImageCell.swift */,
+				7DF778AE2C383BF400D47B5C /* ErrorView.swift */,
 				7D46D5CC2C1D67A7008F4B7C /* Feed.storyboard */,
 				7D46D5CE2C1D68F0008F4B7C /* Feed.xcassets */,
 			);
@@ -854,6 +857,7 @@
 				7D46D5BB2C157AAF008F4B7C /* FeedImageCellController.swift in Sources */,
 				7D46D5B12C14C4EB008F4B7C /* UIView+Shimmering.swift in Sources */,
 				7D46D5AF2C1477FD008F4B7C /* FeedImageCell.swift in Sources */,
+				7DF778AF2C383BF400D47B5C /* ErrorView.swift in Sources */,
 				7D46D58A2C142CD3008F4B7C /* EssentialFeediOS.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
