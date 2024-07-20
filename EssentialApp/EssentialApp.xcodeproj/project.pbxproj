@@ -29,7 +29,7 @@
 		7DF778782C2C455800D47B5C /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778722C2C455800D47B5C /* WeakRefVirtualProxy.swift */; };
 		7DF778792C2C455800D47B5C /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778742C2C455800D47B5C /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		7DF7787A2C2C455800D47B5C /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778732C2C455800D47B5C /* FeedViewAdapter.swift */; };
-		7DF7787C2C2C455800D47B5C /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778712C2C455700D47B5C /* FeedLoaderPresentationAdapter.swift */; };
+		7DF7787C2C2C455800D47B5C /* LoadResourcePresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778712C2C455700D47B5C /* LoadResourcePresentationAdapter.swift */; };
 		7DF778842C2C45DD00D47B5C /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7787E2C2C45DD00D47B5C /* UIButton+TestHelpers.swift */; };
 		7DF778852C2C45DD00D47B5C /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7787F2C2C45DD00D47B5C /* FeedImageCell+TestHelpers.swift */; };
 		7DF778862C2C45DD00D47B5C /* UIRefreshControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778802C2C45DD00D47B5C /* UIRefreshControl+TestHelpers.swift */; };
@@ -99,7 +99,7 @@
 		7DF7785C2C2BFDF900D47B5C /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 		7DF778622C2C33E600D47B5C /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF7786F2C2C413F00D47B5C /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
-		7DF778712C2C455700D47B5C /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		7DF778712C2C455700D47B5C /* LoadResourcePresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadResourcePresentationAdapter.swift; sourceTree = "<group>"; };
 		7DF778722C2C455800D47B5C /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		7DF778732C2C455800D47B5C /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 		7DF778742C2C455800D47B5C /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 				7DF778762C2C455800D47B5C /* FeedUIComposer.swift */,
 				7DF778722C2C455800D47B5C /* WeakRefVirtualProxy.swift */,
 				7DF778742C2C455800D47B5C /* FeedImageDataLoaderPresentationAdapter.swift */,
-				7DF778712C2C455700D47B5C /* FeedLoaderPresentationAdapter.swift */,
+				7DF778712C2C455700D47B5C /* LoadResourcePresentationAdapter.swift */,
 				7DF778732C2C455800D47B5C /* FeedViewAdapter.swift */,
 				7DF778432C2BE7B200D47B5C /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				7DF7785C2C2BFDF900D47B5C /* FeedImageDataLoaderCacheDecorator.swift */,
@@ -373,7 +373,7 @@
 				7DF778B92C4605AA00D47B5C /* CombineHelpers.swift in Sources */,
 				7DF778442C2BE7B200D47B5C /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				7DF778792C2C455800D47B5C /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
-				7DF7787C2C2C455800D47B5C /* FeedLoaderPresentationAdapter.swift in Sources */,
+				7DF7787C2C2C455800D47B5C /* LoadResourcePresentationAdapter.swift in Sources */,
 				7DF7785D2C2BFDF900D47B5C /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
