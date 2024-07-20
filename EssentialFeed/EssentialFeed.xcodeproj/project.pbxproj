@@ -95,6 +95,7 @@
 		7DF778D52C4BE36C00D47B5C /* LoadResourcePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778D42C4BE36C00D47B5C /* LoadResourcePresenter.swift */; };
 		7DF778D82C4BECCE00D47B5C /* Shared.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DF778D62C4BECCE00D47B5C /* Shared.strings */; };
 		7DF778DA2C4BEE9F00D47B5C /* SharedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778D92C4BEE9F00D47B5C /* SharedLocalizationTests.swift */; };
+		7DF778DE2C4C1E9800D47B5C /* SharedLocalizationTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778DD2C4C1E9800D47B5C /* SharedLocalizationTestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +240,7 @@
 		7DF778D92C4BEE9F00D47B5C /* SharedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLocalizationTests.swift; sourceTree = "<group>"; };
 		7DF778DB2C4BEF8500D47B5C /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Shared.strings; sourceTree = "<group>"; };
 		7DF778DC2C4BEF8700D47B5C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Shared.strings"; sourceTree = "<group>"; };
+		7DF778DD2C4C1E9800D47B5C /* SharedLocalizationTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLocalizationTestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,6 +546,7 @@
 			children = (
 				7D64A3662BE66D68007696D5 /* XCTTestCase+MemoryLeakTracking.swift */,
 				7D46D5302C02556D008F4B7C /* SharedTestHelpers.swift */,
+				7DF778DD2C4C1E9800D47B5C /* SharedLocalizationTestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1009,6 +1012,7 @@
 				7D46D51D2C01B3FA008F4B7C /* CacheFeedUseCaseTests.swift in Sources */,
 				7DF778DA2C4BEE9F00D47B5C /* SharedLocalizationTests.swift in Sources */,
 				7D46D5282C022367008F4B7C /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
+				7DF778DE2C4C1E9800D47B5C /* SharedLocalizationTestHelpers.swift in Sources */,
 				7D46D5392C0B0453008F4B7C /* FeedStoreSpecs.swift in Sources */,
 				7D64A3672BE66D68007696D5 /* XCTTestCase+MemoryLeakTracking.swift in Sources */,
 				7D46D53B2C0B053E008F4B7C /* XCTestCase+FeedStoreSpecs.swift in Sources */,
