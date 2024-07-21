@@ -101,6 +101,7 @@
 		7DF778E52C4CA7B900D47B5C /* ImageCommentsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778E42C4CA7B900D47B5C /* ImageCommentsPresenterTests.swift */; };
 		7DF778E82C4CA86A00D47B5C /* ImageCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778E72C4CA86A00D47B5C /* ImageCommentsPresenter.swift */; };
 		7DF778EB2C4CA90700D47B5C /* ImageComments.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DF778E92C4CA90700D47B5C /* ImageComments.strings */; };
+		7DF778ED2C4CA9C100D47B5C /* ImageCommentsLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF778EC2C4CA9C100D47B5C /* ImageCommentsLocalizationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +252,9 @@
 		7DF778E42C4CA7B900D47B5C /* ImageCommentsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenterTests.swift; sourceTree = "<group>"; };
 		7DF778E72C4CA86A00D47B5C /* ImageCommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenter.swift; sourceTree = "<group>"; };
 		7DF778EA2C4CA90700D47B5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ImageComments.strings; sourceTree = "<group>"; };
+		7DF778EC2C4CA9C100D47B5C /* ImageCommentsLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsLocalizationTests.swift; sourceTree = "<group>"; };
+		7DF778EE2C4CAA1D00D47B5C /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/ImageComments.strings; sourceTree = "<group>"; };
+		7DF778EF2C4CAA1E00D47B5C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ImageComments.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -691,6 +695,7 @@
 			isa = PBXGroup;
 			children = (
 				7DF778E42C4CA7B900D47B5C /* ImageCommentsPresenterTests.swift */,
+				7DF778EC2C4CA9C100D47B5C /* ImageCommentsLocalizationTests.swift */,
 			);
 			path = "Image Comments Presentation";
 			sourceTree = "<group>";
@@ -1031,6 +1036,7 @@
 				7DF777D72C27EA4800D47B5C /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */,
 				7DF777DF2C27F28E00D47B5C /* CacheFeedImageDataUseCaseTests.swift in Sources */,
 				7D46D5352C0313FB008F4B7C /* CodableFeedStoreTests.swift in Sources */,
+				7DF778ED2C4CA9C100D47B5C /* ImageCommentsLocalizationTests.swift in Sources */,
 				7D46D52F2C025473008F4B7C /* FeedCacheTestHelpers.swift in Sources */,
 				7DF777D52C269F7200D47B5C /* FeedImageDataMapperTests.swift in Sources */,
 				7DF777D12C269D8600D47B5C /* URLProtocolStub.swift in Sources */,
@@ -1123,6 +1129,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				7DF778EA2C4CA90700D47B5C /* en */,
+				7DF778EE2C4CAA1D00D47B5C /* el */,
+				7DF778EF2C4CAA1E00D47B5C /* pt-BR */,
 			);
 			name = ImageComments.strings;
 			sourceTree = "<group>";
