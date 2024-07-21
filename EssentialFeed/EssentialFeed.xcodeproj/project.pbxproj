@@ -513,12 +513,12 @@
 		7D64A3482BB69E8A007696D5 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				7D64A3652BE66D3D007696D5 /* Helpers */,
 				7DF778D02C4BE05900D47B5C /* Shared Presentation */,
 				7DF778C72C4622ED00D47B5C /* Shared API Infra */,
 				7DF778C92C482AFB00D47B5C /* Image Comments API */,
 				7DF778E32C4CA77900D47B5C /* Image Comments Presentation */,
 				7D46D5F72C1E071B008F4B7C /* Feed Presentation */,
-				7D64A3652BE66D3D007696D5 /* Helpers */,
 				7D46D51B2C01B3C4008F4B7C /* Feed Cache */,
 				7D64A3622BDE99C2007696D5 /* Feed API */,
 			);
