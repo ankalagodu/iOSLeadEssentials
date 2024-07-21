@@ -113,6 +113,7 @@
 		7DF779112C4D39A700D47B5C /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF7790E2C4D39A700D47B5C /* IMAGE_COMMENTS_dark.png */; };
 		7DF779122C4D39A700D47B5C /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF7790F2C4D39A700D47B5C /* IMAGE_COMMENTS_light.png */; };
 		7DF779142C4D3A9700D47B5C /* ImageCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF779132C4D3A9700D47B5C /* ImageCommentCell.swift */; };
+		7DF779162C4D4DCA00D47B5C /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF779152C4D4DCA00D47B5C /* CellController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +278,7 @@
 		7DF7790E2C4D39A700D47B5C /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		7DF7790F2C4D39A700D47B5C /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
 		7DF779132C4D3A9700D47B5C /* ImageCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCell.swift; sourceTree = "<group>"; };
+		7DF779152C4D4DCA00D47B5C /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -751,6 +753,7 @@
 			isa = PBXGroup;
 			children = (
 				7D46D5AC2C147380008F4B7C /* ListViewController.swift */,
+				7DF779152C4D4DCA00D47B5C /* CellController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1118,6 +1121,7 @@
 				7D46D5AF2C1477FD008F4B7C /* FeedImageCell.swift in Sources */,
 				7DF778AF2C383BF400D47B5C /* ErrorView.swift in Sources */,
 				7D46D58A2C142CD3008F4B7C /* EssentialFeediOS.docc in Sources */,
+				7DF779162C4D4DCA00D47B5C /* CellController.swift in Sources */,
 				7DF779142C4D3A9700D47B5C /* ImageCommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
