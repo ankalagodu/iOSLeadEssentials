@@ -121,6 +121,7 @@
 		7DF779312C51E40200D47B5C /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF7792F2C51E40200D47B5C /* IMAGE_COMMENTS_light.png */; };
 		7DF779322C51E40200D47B5C /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF779302C51E40200D47B5C /* IMAGE_COMMENTS_dark.png */; };
 		7DF779342C51E53A00D47B5C /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF779332C51E53A00D47B5C /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */; };
+		7DF779362C51F4C800D47B5C /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF779352C51F4C800D47B5C /* UIView+Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +294,7 @@
 		7DF7792F2C51E40200D47B5C /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
 		7DF779302C51E40200D47B5C /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		7DF779332C51E53A00D47B5C /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_CONTENT_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
+		7DF779352C51F4C800D47B5C /* UIView+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Container.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -792,6 +794,7 @@
 				7D46D5D52C1D7C65008F4B7C /* UITableView+Dequeueing.swift */,
 				7DF778F52C4D2BEA00D47B5C /* UIRefreshControl+Helpers.swift */,
 				7DF778AC2C2C605100D47B5C /* UITableView+HeaderSizing.swift */,
+				7DF779352C51F4C800D47B5C /* UIView+Container.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1144,6 +1147,7 @@
 				7DF779082C4D347D00D47B5C /* ImageCommentCellController.swift in Sources */,
 				7DF778AD2C2C605100D47B5C /* UITableView+HeaderSizing.swift in Sources */,
 				7D46D5D82C1D7D7C008F4B7C /* UIImageView+Animations.swift in Sources */,
+				7DF779362C51F4C800D47B5C /* UIView+Container.swift in Sources */,
 				7D46D5BB2C157AAF008F4B7C /* FeedImageCellController.swift in Sources */,
 				7D46D5B12C14C4EB008F4B7C /* UIView+Shimmering.swift in Sources */,
 				7D46D5AF2C1477FD008F4B7C /* FeedImageCell.swift in Sources */,
