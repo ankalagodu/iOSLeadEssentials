@@ -109,7 +109,11 @@ extension ListViewController {
     }
     
     var isShowingLoadMoreFeedIndicator: Bool {
-        return loadMoreFeedCell()?.isLoading == true
+        loadMoreFeedCell()?.isLoading == true
+    }
+    
+    var loadMoreFeedErrorMessage: String? {
+        loadMoreFeedCell()?.message
     }
     
     private func loadMoreFeedCell() -> LoadMoreCell? {
